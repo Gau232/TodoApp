@@ -4,7 +4,7 @@ This Todo web app is created using React.
 
 ## Demo
 
-[https://myntra-clone-pi.vercel.app/](https://todo-app-gau232.vercel.app/)
+https://todo-app-gau232.vercel.app/
 ## Features
 
 - Add todo's and subtodo's
