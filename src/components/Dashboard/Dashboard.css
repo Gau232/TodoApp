@@ -1,0 +1,207 @@
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.user-profile {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgb(83, 79, 79);
+        font-size: 1.1rem;
+    }
+
+    & button {
+        padding: 10px 20px;
+        background-color: #4e54c8;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        background-color: #8f94fb;
+    }
+}
+
+#section-selector {
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    z-index: 10;
+    font-weight: 500;
+    color: #4e54c8;
+    font-size: 0.8rem;
+    text-shadow: none;
+}
+
+.todo-section {
+    flex: 1;
+    width: 100%;
+    padding: 5%;
+    background-color: #fff;
+    z-index: 999;
+
+    & h2 {
+        margin-bottom: 20px;
+        color: #4e54c8;
+    }
+
+    &>div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        &>input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            outline: none;
+            color: #4e54c8;
+        }
+
+        &>button {
+            padding: 10px 20px;
+            background-color: #4e54c8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        &>button:hover {
+            background-color: #8f94fb;
+        }
+    }
+
+    & ul {
+        list-style: none;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .todosection {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    & li {
+        margin-bottom: 5px;
+
+        & input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        & input[type="text"] {
+            flex: 1;
+            padding: 5px;
+            margin-right: 2px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            outline: none;
+            color: grey;
+
+        }
+
+        & button {
+            padding: 5px 10px;
+            background-color: #4e54c8;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        & button:hover {
+            background-color: #8f94fb;
+        }
+    }
+
+    & .subtask {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 15px;
+
+        & .subtask-title {
+            display: flex;
+            align-items: center;
+            color: grey;
+        }
+    }
+}
+
+.maintask {
+    font-weight: 600;
+    font-size: 20px;
+    color: #4e54c8;
+    box-shadow: 1px 1px 4px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.maintasktitle {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:650px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .user-profile {
+        padding: 0px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        & img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+
+        & p {
+            display: none;
+        }
+
+        #section-selector {
+            display: none;
+        }
+    }
+}

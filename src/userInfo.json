@@ -1,0 +1,26 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Gautham K",
+        "email": "gau@email.com",
+        "password": "password123",
+        "profilePic": "https://m.timesofindia.com/photo/83890830/83890830.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Manoj D",
+        "email": "manoj@email.com",
+        "password": "password123",
+        "profilePic": "https://www.shutterstock.com/image-photo/portrait-happy-fashionable-handsome-man-260nw-600200732.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Mozhi T",
+        "email": "mozhi@email.com",
+        "password": "password123",
+        "profilePic": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg"
+      }
+    ]
+  }
+  
