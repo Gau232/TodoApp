@@ -19,9 +19,4 @@ React JS, HTML and CSS
 ## Screenshots
 
 ![App Screenshot](https://github.com/Gau232/TodoApp/blob/main/src/assets/sample_images/todo-project-pic1.png)
-![App Screenshot](https://github.com/Gau232/TodoApp/blob/main/src/assets/sample_images/todo-project-pic.png)
-
-
-(https://github.com/Gau232/myntra-clone/blob/master/src/assets/images/sample_images/todo-project-pic2.png)
-
-
+![App Screenshot](https://github.com/Gau232/TodoApp/blob/main/src/assets/sample_images/todo-project-pic2.png)
